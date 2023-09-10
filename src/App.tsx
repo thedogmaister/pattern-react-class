@@ -2,6 +2,7 @@
 // import log2 from "assets/logo192.png";
 import "./App.css";
 import { ConditionalRendering } from "./components/conditionalRenderingDesignPattern/ConditionalRendering";
+import ObservablesMain from "./components/reactivex";
 // import { ShopingCard } from "./components/CompundComponet_controlProps_pattern/pages/ShopingCard";
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       {/* <ComponetANew></ComponetANew>
       <ComponetBNew></ComponetBNew> */}
       {/* <ShopingCard /> */}
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+      <ObservablesMain />
     </div>
   );
 }
